@@ -7,7 +7,7 @@ import NotFound from "./NotFound";
 // Switch tried the routes in order and falls back to 404
 // exact = exactly on the /
 
-const Router = () => (
+const Router = () => (    
     <BrowserRouter>
         <Switch>
             <Route exact path="/" component={StorePicker} />
